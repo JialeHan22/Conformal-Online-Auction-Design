@@ -30,7 +30,7 @@ from matplotlib.patches import Patch
 from scipy.spatial import ConvexHull
 
 '''
-Construct the regression function μ(x, z) and the data generation function.
+Construct the regression function μ(x, z) and the provide the data generation function used to generate the simulated data
 '''
 
 np.random.seed(1)
