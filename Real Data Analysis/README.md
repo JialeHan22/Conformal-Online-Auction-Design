@@ -1,6 +1,6 @@
 # Real Data Analysis on eBay Data in Section 6
 
-This folder contains the implementation and experiment code associated with our study on comparing the revenue performance of various auction mechanisms and evaluating the coverage probability of the conformal prediction interval using real-world data from eBay.
+This folder contains the implementation and experimental code for the real-data analysis presented in Section 6, which compares the revenue performance of various auction mechanisms and evaluates the coverage probability of conformal prediction intervals using real-world data from eBay.
 
 ## Contents
 
@@ -17,16 +17,16 @@ This folder contains the implementation and experiment code associated with our 
 ### Core Modules
 
 * **`Myerson_auction.py`**
-  Implements the empirical Myerson auction following the methodology of Cole and Roughgarden (2014).
+  This module provides functions to implement the empirical Myerson auction, following the methodology of Cole and Roughgarden (2014), given historical value data.
 
 * **`conformal_auxiliary.py`**
   Contains auxiliary functions for the conformal prediction framework, used primarily to identify the item type in each auction.
 
 * **`real_data_exp.py`**
-  Implements the core experimental setup. This module conducts empirical comparisons of the expected revenue under different auction mechanisms, and also calculates the coverage probability of the conformal prediction interval for the true value.
+  This module implements the core experimental setup, providing functions to conduct empirical comparisons of expected revenue across different auction mechanisms and to compute the coverage probability of conformal prediction intervals for the true valuation.
 
 * **`split_table.py`**
-  Utility module for randomly splitting historical auction data into training and calibration sets. 
+  This module provides functions for randomly partitioning historical auction data into training and calibration sets.
 
 ### Dataset
 
@@ -38,7 +38,7 @@ This folder contains the implementation and experiment code associated with our 
 To reproduce our results:
 
 1. Ensure that all `.py` files are in the working directory or your Python path.
-2. Launch and run the Jupyter notebook `new_eBay_real_data_code.ipynb`.
+2. Launch and run the Jupyter notebook `eBay_real_data_code.ipynb`.
 3. All intermediate results (e.g., figures, boxplots) will be generated automatically.
 
 

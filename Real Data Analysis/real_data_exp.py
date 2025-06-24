@@ -46,7 +46,7 @@ preprocessor = ColumnTransformer(
 
 def delete_none(train_df, new_df):
     '''
-    Delete bidders who have not previously placed bids in the new auction
+    Identifies bidders in the new auction who have previously participated by placing bids
     '''
     unique_bidders = train_df['Bidder'].unique()
     
