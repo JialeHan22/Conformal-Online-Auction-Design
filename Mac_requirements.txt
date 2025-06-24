@@ -1,5 +1,5 @@
 #Python 3.10.13
-#pip install -r requirements.txt
+#pip install -r Mac_requirements.txt
 
 pandas==1.4.4
 numpy==1.23.5
