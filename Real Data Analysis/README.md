@@ -20,7 +20,7 @@ This folder contains the implementation and experimental code for the real-data 
   This module provides functions to implement the empirical Myerson auction, following the methodology of Cole and Roughgarden (2014), given historical value data.
 
 * **`conformal_auxiliary.py`**
-  Contains auxiliary functions for the conformal prediction framework, used primarily to identify the item type in each auction.
+  This module contains auxiliary functions for the conformal prediction framework, used primarily to identify the item type in each auction.
 
 * **`real_data_exp.py`**
   This module implements the core experimental setup, providing functions to conduct empirical comparisons of expected revenue across different auction mechanisms and to compute the coverage probability of conformal prediction intervals for the true valuation.
