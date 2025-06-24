@@ -1,4 +1,4 @@
-# Application-Based Simulation Studies in Supplementary Materials Section D.1
+# Additional Numerical Results in Supplementary Materials Section D.1
 
 This folder contains the implementation and experimental code for our study in Supplementary Materials Section D.1, which compares the revenue performance of various auction mechanisms and evaluates the coverage probability of conformal prediction intervals through a simulation study where several key assumptions of our framework are not satisfied.
 
