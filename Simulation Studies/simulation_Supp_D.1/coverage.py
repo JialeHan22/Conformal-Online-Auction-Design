@@ -36,7 +36,7 @@ def conformal_predict_z_0(alpha=0.1, m=2500, z_0=3):
 
 
     Returns:
-        IR: vectors of the coverage rate
+        IR: vectors of the coverage probability
         d: half-length of the interval in the last experiment
     '''
     IR = []
