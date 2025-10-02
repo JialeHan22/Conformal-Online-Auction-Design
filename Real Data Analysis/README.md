@@ -33,20 +33,6 @@ This folder contains the implementation and experimental code for the real-data 
 * **`Palm+7-day+149auctions+Curve+Clustering.csv`**
   The original auction dataset collected from https://www.modelingonlineauctions.com/datasets. 
 
-Data Dictionary:
-
-Auction ID: Identifier (nominal categorical) uniquely identifying each auction.
-BidAmount: Continuous numerical variable representing the bid amount (in U.S. dollars) placed by a bidder.
-BidTime: Continuous numerical variable measuring the elapsed time (in days) from the start of the auction when the bid was placed.
-Bidder: Identifier (nominal categorical) denoting the eBay username of the bidder.
-Bidder Rating: Discrete numerical variable representing the eBay feedback rating of the bidder.
-Closing Price: Continuous numerical variable indicating the final winning bid (in U.S. dollars) when the auction closes.
-Opening Bid: Continuous numerical variable representing the opening bid (in U.S. dollars) set by the seller.
-Seller: Identifier (nominal categorical) denoting the eBay username of the seller.
-Seller Rating: Discrete numerical variable representing the eBay feedback rating of the seller.
-# Bids: Discrete numerical variable indicating the total number of bids submitted in the corresponding auction.
-End Date: Categorical variable representing the auction end date, formatted as mm/dd/yyyy.
-
 
 ## Usage
 
